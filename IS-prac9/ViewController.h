@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)calc:(UIButton *)sender;
+
 @end
