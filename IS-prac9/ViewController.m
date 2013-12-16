@@ -54,24 +54,31 @@
     if (bmi<=0) {
         _msg.text= @"体重と身長を入力してください";
         _bmi.textColor = [UIColor blackColor];
+        _prg.progressTintColor = [UIColor blackColor];
     } else if (bmi<18.5) {
         _msg.text= @"低体重";
         _bmi.textColor = [UIColor blueColor];
+        _prg.progressTintColor = [UIColor blueColor];
     } else if (bmi<25.0) {
         _msg.text= @"普通体重";
         _bmi.textColor = [UIColor greenColor];
+        _prg.progressTintColor = [UIColor greenColor];
     } else if (bmi<30.0) {
         _msg.text= @"肥満（1度）";
         _bmi.textColor = [UIColor yellowColor];
+        _prg.progressTintColor = [UIColor yellowColor];
     } else if (bmi<35.0) {
         _msg.text= @"肥満（2度）";
         _bmi.textColor = [UIColor orangeColor];
+        _prg.progressTintColor = [UIColor orangeColor];
     } else if (bmi<40.0) {
         _msg.text= @"肥満（3度）";
         _bmi.textColor = [UIColor purpleColor];
+        _prg.progressTintColor = [UIColor purpleColor];
     } else {
         _msg.text= @"肥満（4度）";
         _bmi.textColor = [UIColor redColor];
+        _prg.progressTintColor = [UIColor redColor];
     }
 }
 
